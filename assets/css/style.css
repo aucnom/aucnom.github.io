@@ -154,7 +154,7 @@ section h2 {
 }
 
 .skill {
-  background-color: #fff;
+  background-color: #ddd;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -162,15 +162,15 @@ section h2 {
 
 .skill h3 {
   font-size: 1.5em;
-  color: #ddd;
+  color: #000;
   margin-bottom: 10px;
 }
 
-.skill {
+/* .skill {
   background: linear-gradient(268deg, #ff3900, #006bff, #ebff00, #ff00b5);
   background-size: 240% 240%;
   animation: gradient-animation 8s ease infinite;
-}
+} */
 
 @keyframes gradient-animation {
   0% {
@@ -203,7 +203,8 @@ section h2 {
 #contact ul {
   list-style: none;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #contact li {

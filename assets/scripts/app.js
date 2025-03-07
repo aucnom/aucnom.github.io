@@ -1,1 +1,1 @@
-console.log("Hello, i'm Mahdi.");
+console.log("سلام من مهدی حسین زاده هستم.");
